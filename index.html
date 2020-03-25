@@ -1,81 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Set fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- External Css file -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
 
     <title>WordPress</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div id="mobile-menu">
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Projects</a>
-            </li>
-            <li>
-                <a href="#">about</a>
-            </li>
-            <li>
-                <input type="text" placeholder="Search here">
-                <br>
-                <a href="#">
-                    <i class="fa fa-search"></i>
-                </a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+        <li>
+          <input type="text" placeholder="Search here" />
+          <br />
+          <a href="#">
+            <i class="fa fa-search"></i>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <nav>
-        <div id="logo-img">
-            <a href="#">
-                <img src='img/logo.png' alt="My Logo"/>
-            </a>
-        </div>
-        <div id="menu-icon">
-            <i class="fa fa-bars"></i>
-        </div>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Projects</a>
-            </li>
-            <li>
-                <a href="#">about</a>
-            </li>
-            <li>
-                <div id="serach-icon">
-                    <i class="fa fa-search"></i>
-                </div>
-            </li>
-        </ul>
+      <div id="logo-img">
+        <a href="#">
+          <img src="img/logo.png" alt="My Logo" />
+        </a>
+      </div>
+      <div id="menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+        <li>
+          <div id="serach-icon">
+            <i class="fa fa-search"></i>
+          </div>
+        </li>
+      </ul>
     </nav>
 
     <div id="searchbox">
-        <input type="text" placeholder="Search Here">
+      <input type="text" placeholder="Search Here" />
     </div>
-    
-</body>
+
+    <div id="banner">
+      <h1>My Blog</h1>
+      <h3>Testing WordPress</h3>
+    </div>
+
+    <main>
+      <a href="#">
+        <h2 class="section-heading">All Blogs</h2>
+      </a>
+
+      <section>
+
+        <div class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="img/tech.jpg" alt="Card Image" />
+            </a>
+          </div>
+
+          <div class="card-description">
+            <a href="#">
+              <h3>The Blog title here</h3>
+            </a>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+              obcaecati atque, assumenda quo molestiae dolorum accusantium
+              itaque doloremque officiis natus veniam ut commodi qui magnam
+              distinctio voluptatibus, molestias placeat nostrum.
+            </p>
+            <a href="#" class="btn-readmore">Read More</a>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+              <a href="#">
+                <img src="img/tech.jpg" alt="Card Image" />
+              </a>
+            </div>
+  
+            <div class="card-description">
+              <a href="#">
+                <h3>The Blog title here</h3>
+              </a>
+  
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+                obcaecati atque, assumenda quo molestiae dolorum accusantium
+                itaque doloremque officiis natus veniam ut commodi qui magnam
+                distinctio voluptatibus, molestias placeat nostrum.
+              </p>
+              <a href="#" class="btn-readmore">Read More</a>
+            </div>
+          </div>
+
+      </section>
+
+    </main>
+
+  </body>
 </html>
