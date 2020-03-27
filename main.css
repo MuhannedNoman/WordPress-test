@@ -241,6 +241,67 @@ section {
 
 /* Footer */
 
+footer {
+    background-color: black;
+    padding: 8px;
+    color: #eee;
+    display: flex;
+}
+
+footer a {
+    color: white;
+}
+
+footer #left-footer {
+    flex: 1;
+    border-right: 1px solid right;
+    padding-left: 32px;
+}
+
+footer #left-footer ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+}
+
+footer #social-media-footer a .fa-facebook, 
+footer #social-media-footer a .fa-linkedin, 
+footer #social-media-footer a .fa-github {
+    color: white;
+    transition: 0.4s;
+}
+
+footer #social-media-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+footer #social-media-footer ul li {
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+}
+
+
+footer #social-media-footer ul li:hover a .fa-facebook {
+    color: #4267B2;
+}
+
+footer #social-media-footer ul li:hover a .fa-linkedin {
+    color: #2867b2;
+}
+footer #social-media-footer ul li:hover a .fa-github {
+    color: #bbb;
+}
+
+footer #right-footer {
+    flex: 2;
+    padding: 8px;
+    text-align: center;
+}
+
 
 /* Media Queries */
 
