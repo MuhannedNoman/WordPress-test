@@ -176,6 +176,8 @@ nav ul {
     margin-top: 72px;
     width: 100%;
     text-align: center;
+    opacity: 0;
+    pointer-events: none;
 }
 
 #mobile-menu ul {
@@ -345,7 +347,7 @@ footer #right-footer {
     }
 
     #mobile-menu {
-        /* display: block; */
+        display: block;
     }
 
     #searchbox {
