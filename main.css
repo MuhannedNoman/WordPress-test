@@ -220,6 +220,28 @@ section {
     padding: 0 8px;
 }
 
+/* Button Read more */
+
+.btn-readmore {
+    padding: 8px 24px;
+    border: 3px solid black;
+    transition: 0.4s;
+    display: inline-block;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-readmore:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+/* Footer */
+
+
 /* Media Queries */
 
 @media(min-width:720px){
@@ -233,5 +255,11 @@ section {
 
     .card .card-image img{
         width: 100%;
+    }
+}
+
+@media(min-width:1200px){
+    main {
+        width: 85%;
     }
 }
