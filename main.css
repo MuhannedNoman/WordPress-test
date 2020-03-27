@@ -353,6 +353,21 @@ footer #right-footer {
     }
 }
 
+@media(max-width:719px){
+    main {
+        width: 95%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .card,
+    .card .card-image {
+        width: 100%;
+    }
+}
+
 @media(min-width:720px){
     main{
         width: 95%;
