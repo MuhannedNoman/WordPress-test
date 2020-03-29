@@ -5,3 +5,7 @@ Author URI: https://github.com/MuhannedNoman
 Description: This is a test theme for a blog
 Version: 1.0
 */
+
+body {
+    background-color: red;
+}

@@ -1,1 +1,3 @@
-<h2>Hi from index.php</h2>
+<?php get_header(); ?>
+
+<?php get_footer(); ?>
